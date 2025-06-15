@@ -1,7 +1,90 @@
-*{
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+nav {
+    display: flex;
+    background-color: #895d39;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    border-bottom: 3px solid #ffde59;
+}
+
+nav>a>img {
+    width: 20%;
+    margin-top: 5px;
+}
+
+nav>a {
+    text-decoration: none;
+    color: #ffde59;
+    margin: auto;
+    font-size: 1.5em;
 
 }
 
-nav{
-    background-color: black;
+.ativo {
+    border-bottom: 3px solid #ffde59;
+}
+
+.banner>img {
+    width: 100%;
+    margin-top: 50px;
+    border-bottom: 3px solid #ffde59;
+}
+
+.quem_somos {
+    width: 80%;
+    margin: auto;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    color: #895d39;
+    font-size: 2.1em;
+    line-height: 1.5;
+}
+
+
+.quem_somos_intro {
+
+    display: flex;
+}
+
+.quem_somos_intro_conteudo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.quem_somos_intro_conteudo>h1 {
+    margin-bottom: 15px;
+}
+
+.quem_somos_missao {
+    display: flex; 
+    margin: auto;
+}
+.quem_somos_missao_imagem>img{
+    width: 90%;
+}
+
+.quem_somos_visao {
+    display: flex; 
+}
+.quem_somos_visao_conteudo {
+   text-align: right;
+}
+.quem_somos_visao_imagem>img{
+    width: 90%;
+    
+}
+
+.quem_somos_valores {
+    display: flex; 
+}
+.quem_somos_valores_imagem>img{
+    width: 90%;
 }
