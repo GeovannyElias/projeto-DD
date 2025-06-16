@@ -24,10 +24,7 @@ nav>a {
     color: #ffde59;
     margin: auto;
     font-size: 1.5em;
-
 }
-
-
 
 .banner>img {
     width: 100%;
@@ -92,6 +89,7 @@ nav>a {
     width: 90%;
 }
 
+<<<<<<< Updated upstream
 footer section{
     display: flex;
     background-color: #895d39;
@@ -167,4 +165,73 @@ footer p{
     flex-direction: column;
     width: 50%;
    
+=======
+.jogos_cafes {
+    background-color: #895d39;
+    color: #ffde59;
+    text-align: center;
+    padding: 60px 20px;
+    font-family: 'Poppins', sans-serif;
+    border-top: 3px solid #ffde59;
+}
+
+.jogos_cafes h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.jogos_cafes p {
+    max-width: 800px;
+    margin: 0 auto 40px auto;
+    font-size: 2em;
+    line-height: 1.4;
+}
+
+.cardapio {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    background-color: #ffde59;
+    padding: 40px;
+    border-radius: 0 0 16px 16px;
+}
+
+.titulo_cardapio {
+    font-size: 2.8em;
+    color: #895d39;
+    text-align: center;
+    margin-top: 40px;
+    background-color: #ffde59;
+    padding: 40px;
+    border-radius: 16px 16px 0 0;
+}
+
+/* bloco com h3 + ul */
+.categoria {
+    background-color: white;
+    border: 1px solid #895d39;
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.categoria h3 {
+    text-align: center;
+    color: #895d39;
+    font-size: 1.8em;
+    border-bottom: 1px solid #895d39;
+    padding-bottom: 8px;
+    margin-bottom: 12px;
+}
+
+.categoria ul {
+    list-style-type: none;
+    color: #895d39;
+}
+
+.categoria li {
+    font-size: 1.3em;
+>>>>>>> Stashed changes
 }
