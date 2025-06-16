@@ -89,7 +89,6 @@ nav>a {
     width: 90%;
 }
 
-<<<<<<< Updated upstream
 footer section{
     display: flex;
     background-color: #895d39;
@@ -165,7 +164,6 @@ footer p{
     flex-direction: column;
     width: 50%;
    
-=======
 .jogos_cafes {
     background-color: #895d39;
     color: #ffde59;
@@ -233,5 +231,4 @@ footer p{
 
 .categoria li {
     font-size: 1.3em;
->>>>>>> Stashed changes
 }
