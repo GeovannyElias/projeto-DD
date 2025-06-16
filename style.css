@@ -163,9 +163,11 @@ footer p{
     display: flex;
     flex-direction: column;
     width: 50%;
-   
-.jogos_cafes {
-    background-color: #895d39;
+}
+
+
+.jogos_cafes{
+
     color: #ffde59;
     text-align: center;
     padding: 60px 20px;
@@ -232,3 +234,4 @@ footer p{
 .categoria li {
     font-size: 1.3em;
 }
+
