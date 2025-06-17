@@ -143,6 +143,7 @@ nav>a>img {
     display: flex;
     flex-wrap: wrap;
 
+    flex-wrap: wrap; 
     gap: 30px;
     padding: 40px;
     border-bottom: 2px solid #eee;
@@ -159,10 +160,19 @@ nav>a>img {
     font-size: 2em;
 }
 
+
+
+.categoria .preco {
+    text-align: right;
+    min-width: 60px;
+    margin-left: 10px; /* Opcional: dá um espacinho entre descrição e preço */
+}
+
+
 /* bloco com h3 + ul */
 .categoria {
-    background-color: #ffde59;
-    border: 1px solid #523823;
+    background-color: #895d39;
+    border: 1px solid #ffde59;
     border-radius: 10px;
     padding: 20px;
     width: 100%;
@@ -171,23 +181,26 @@ nav>a>img {
 
 .categoria h3 {
     text-align: start;
-    color: #895d39;
+    color: #ffde59;
     font-size: 1.8em;
-    border-bottom: 1px solid #895d39;
+    border-bottom: 1px solid #ffde59;
     padding-bottom: 8px;
     margin-bottom: 12px;
 }
 
 .categoria ul {
     list-style-type: none;
-    color: #895d39;
+    color: white;
     text-align: start;
 }
 
 .categoria li {
     font-size: 1.3em;
-    border-bottom: 1px solid #895d39;
+    border-bottom: 1px solid #ffde59;
     margin-bottom: 10px;
+    display: flex;              
+    justify-content: space-between; 
+    align-items: flex-start;     
 }
 
 .cards_combos {
@@ -222,7 +235,8 @@ nav>a>img {
 
 
 
-footer section {
+
+footer section{
     display: flex;
     background-color: #895d39;
     justify-content: center;
