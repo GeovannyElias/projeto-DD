@@ -333,6 +333,140 @@ footer > p {
     border-top: 1px solid #ffde59;
 }
 
+
+@media only screen and (max-width: 768px) {
+
+    .banner>img {
+        margin-top: 60px; 
+    }
+    
+
+    nav {
+        padding: 8px 10px;
+    }
+    
+    .menu {
+        font-size: 0.9em;
+        padding: 3px 5px;
+        white-space: nowrap; 
+    }
+    
+    nav>a>img {
+        width: 50px; 
+    }
+    
+
+    .quem_somos_missao,
+    .quem_somos_visao,
+    .quem_somos_valores {
+        display: none;
+    }
+    
+    .quem_somos_intro {
+        flex-direction: column; 
+        text-align: center;
+        padding: 15px;
+    }
+    
+    .quem_somos_intro_imagem {
+        margin-bottom: 15px;
+    }
+    
+    .quem_somos {
+        width: 95%;
+        font-size: 1.5em;
+    }
+    
+    .quem_somos_intro_conteudo>h1 {
+        font-size: 1.8em; 
+    }
+    
+
+    .cards_combos > div {
+        width: 100%; 
+        margin-bottom: 20px;
+    }
+    
+    .cards_combos {
+        flex-direction: column;
+        gap: 15px;
+    }
+    .cards_combos>div>p{
+        font-size: 1em;
+    }
+
+    .jogos_cafes h1,
+    .jogos_cafes p,
+    .titulo_cardapio,
+    .titulo_combos{
+        font-size: 1.8em;
+    }
+    
+    .categoria h3 {
+        font-size: 1.5em;
+    }
+    
+    .categoria li {
+        font-size: 1.1em;
+        flex-wrap: wrap; 
+    }
+    
+    .preco {
+        width: 100%;
+        text-align: left !important;
+        margin-top: 5px;
+        margin-left: 0 !important;
+    }
+    
+
+    .footer_content {
+        flex-direction: column;
+        gap: 20px;
+        padding: 20px 0;
+    }
+    
+    .imagem_footer {
+        width: 100%;
+    }
+    
+    .imagem_footer img {
+        width: 40%;
+    }
+    
+    .contatos_footer {
+        padding: 20px;
+    }
+    
+
+    .ancoras {
+        margin-bottom: 80px;
+    }
+}
+
+
+@media only screen and (max-width: 480px) {
+    .menu {
+        font-size: 0.8em; 
+        padding: 3px;
+    }
+    
+    .quem_somos {
+        font-size: 1.3em;
+    }
+    
+    .jogos_cafes h1,
+    .jogos_cafes p,
+    .titulo_cardapio,
+    .titulo_combos {
+        font-size: 1.5em;
+    }
+    
+    .cardapio,
+    .combos {
+        padding: 20px 10px;
+    }
+}
+
 .loading-overlay {
   position: fixed;
   top: 0;
