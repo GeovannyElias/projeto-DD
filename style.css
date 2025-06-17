@@ -51,8 +51,9 @@ nav>a>img {
 }
 .quem_somos_intro{
     display: flex;
-    border: 2px solid #eee;
+    border: 3px solid #eee;
     box-shadow: 3px 3px 10px #ddd;
+    border-radius: 16px;
 }
 .quem_somos_intro_conteudo {
     display: flex;
@@ -129,58 +130,52 @@ nav>a>img {
 .cardapio {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    
     gap: 30px;
     padding: 40px;
     border-bottom: 2px solid #eee;
     border-right: 2px solid #eee;
     border-left: 2px solid #eee;
-    border-radius: 0 0 16px 16px;
-    box-shadow: 0 0 10px #ddd;
+    border-radius: 16px;
+    box-shadow: 3px 3px 10px #ddd;
     
 }
 
 .titulo_cardapio {
-    font-size: 2.8em;
-    color: #895d39;
-    margin-top: 40px;
-    border-top: 2px solid #eee;
-    border-right: 2px solid #eee;
-    border-left: 2px solid #eee;
-    padding: 40px;
-    border-radius: 16px 16px 0 0;
-    
+    width: 100%;
+    text-align: center;
+    font-size: 2em;
 }
 
 /* bloco com h3 + ul */
 .categoria {
-    background-color: #895d39;
+    background-color: #ffde59;
     border: 1px solid #523823;
     border-radius: 10px;
     padding: 20px;
-    width: 600px;
-    height: 400px;
+    width: 100%;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
 }
 
 .categoria h3 {
     text-align: start;
-    color: #ffde59;
+    color: #895d39;
     font-size: 1.8em;
-    border-bottom: 1px solid #523823;
+    border-bottom: 1px solid #895d39;
     padding-bottom: 8px;
     margin-bottom: 12px;
 }
 
 .categoria ul {
     list-style-type: none;
-    color: #ffde59;
+    color: #895d39;
     text-align: start;
 }
 
 .categoria li {
     font-size: 1.3em;
-    border-bottom: 1px solid #523823;
+    border-bottom: 1px solid #895d39;
+    margin-bottom: 10px;
 }
 
 
