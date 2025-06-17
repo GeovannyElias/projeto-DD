@@ -471,8 +471,13 @@ footer > p {
     .combos {
         padding: 20px 10px;
     }
-    .quem_somos_intro_imagem {
-        max-width: 150px;
+     .quem_somos_intro_imagem {
+        margin-bottom: 15px;
+        width: 100%;
+    }
+    .quem_somos_intro_imagem>img{
+        margin-bottom: 15px;
+        width: 100%;
     }
 }
 
