@@ -18,24 +18,27 @@ nav {
     align-items: center;
     justify-content: space-around;
 }
+
 nav>a>img {
     width: 65px;
     height: auto;
 }
+
 .menu {
     text-decoration: none;
     color: #895d39;
-    font-size: 1.2em; 
-    padding: 5px 10px; 
-    
+    font-size: 1.2em;
+    padding: 5px 10px;
+
 }
+
 .menu:hover {
     border-bottom: 3px solid #ffde59;
 }
 
 .banner>img {
     width: 100%;
-   
+
 }
 
 .quem_somos {
@@ -47,14 +50,16 @@ nav>a>img {
     color: #895d39;
     font-size: 2em;
     line-height: 1.5;
-    gap: 40px; 
+    gap: 40px;
 }
-.quem_somos_intro{
+
+.quem_somos_intro {
     display: flex;
     border: 3px solid #eee;
     box-shadow: 3px 3px 10px #ddd;
     border-radius: 16px;
 }
+
 .quem_somos_intro_conteudo {
     display: flex;
     flex-direction: column;
@@ -64,6 +69,7 @@ nav>a>img {
 .quem_somos_intro_conteudo>h1 {
     margin-bottom: 15px;
 }
+
 .quem_somos_missao,
 .quem_somos_visao,
 .quem_somos_valores {
@@ -75,39 +81,45 @@ nav>a>img {
     padding: 20px 0;
     border-bottom: 1px solid #eee;
 }
+
 .quem_somos_visao {
     text-align: right;
 }
+
 .quem_somos_imagem {
-    width: 135px; 
+    width: 135px;
     flex-shrink: 0;
-    display: flex; 
+    display: flex;
     justify-content: center;
     align-items: center;
     padding: 10px;
 }
-.quem_somos_imagem > img {
-    width: 100%; 
+
+.quem_somos_imagem>img {
+    width: 100%;
     height: auto;
     display: block;
 }
+
 .quem_somos_conteudo {
     flex: 1;
     padding: 0 20px;
     font-size: 1em;
     line-height: 1.6;
 }
+
 .quem_somos_conteudo h1 {
     font-size: 2em;
     margin-bottom: 10px;
     color: #895d39;
 }
+
 .quem_somos_conteudo p {
     color: #895d39;
 }
 
 
-.jogos_cafes{
+.jogos_cafes {
     color: #895d39;
     text-align: center;
     padding: 0 10%;
@@ -130,7 +142,7 @@ nav>a>img {
 .cardapio {
     display: flex;
     flex-wrap: wrap;
-    
+
     gap: 30px;
     padding: 40px;
     border-bottom: 2px solid #eee;
@@ -138,7 +150,7 @@ nav>a>img {
     border-left: 2px solid #eee;
     border-radius: 16px;
     box-shadow: 3px 3px 10px #ddd;
-    
+
 }
 
 .titulo_cardapio {
@@ -178,76 +190,109 @@ nav>a>img {
     margin-bottom: 10px;
 }
 
+.cards_combos {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.cards_combos p {
+    font-size: 1.0em;
+    margin-bottom: 10px;
+    text-align: center;
+    
+    
+
+}
+
+.combo_duplo {
+    background-color: #ffde59;
+    color: #895d39;
+}
+
+.combo_duplo h3 {}
+
+.combo_cheio {
+    background-color: #ffde59;
+}
+
+.combo_rpg {
+    background-color: #ffde59;
+}
 
 
 
-
-footer section{
+footer section {
     display: flex;
     background-color: #895d39;
     justify-content: center;
     color: #ffde59;
 }
+
 footer a {
     text-decoration: none;
     margin: 7px;
-color: #ffde59;
+    color: #ffde59;
 }
-footer p{
+
+footer p {
     background-color: #895d39;
     color: #ffde59;
     text-align: center;
     padding-bottom: 15px;
 }
+
 .imagem_footer {
     width: 50%;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
 }
+
 .imagem_footer>img {
     width: 65%;
 
 }
+
 .conteudo_footer {
     width: 50%;
     display: flex;
     font-size: 1.5em;
     text-align: center;
-    
+
 
 
 }
+
 .conteudo_footer h2 {
     margin-bottom: 15px;
     margin-top: 40%;
 }
+
 .navegacao_footer {
     position: relative;
     display: flex;
     flex-direction: column;
     width: 50%;
-   
+
 
 
 }
+
 .navegacao_footer::after {
     content: "";
     position: absolute;
     top: 50%;
     left: 0;
-    transform: translateY(-50%); 
+    transform: translateY(-50%);
     height: 80%;
     width: 3px;
     background-color: #ffde59;
-   
+
 }
+
 .contatos_footer {
     display: flex;
     flex-direction: column;
     width: 50%;
 }
-
-
-
-
