@@ -44,7 +44,6 @@ nav>a>img {
 .quem_somos {
     width: 80%;
     margin: auto;
-    margin-top: 30px;
     display: flex;
     flex-direction: column;
     color: #895d39;
@@ -58,6 +57,7 @@ nav>a>img {
     border: 3px solid #eee;
     box-shadow: 3px 3px 10px #ddd;
     border-radius: 16px;
+    padding: 20px;
 }
 
 .quem_somos_intro_conteudo {
@@ -179,6 +179,7 @@ nav>a>img {
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
 }
 
+
 .categoria h3 {
     text-align: start;
     color: #ffde59;
@@ -203,110 +204,137 @@ nav>a>img {
     align-items: flex-start;     
 }
 
+
+
+
+
+.combos {
+    margin: 50px 0;
+    padding: 40px 20px;
+    border-radius: 16px;
+    box-shadow: 3px 3px 10px #ddd;
+    text-align: center;
+}
+
+.titulo_combos {
+    color: #895d39;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
 .cards_combos {
     display: flex;
-    flex-direction: row;
-    gap: 1rem;
-}
-
-.cards_combos p {
-    font-size: 1.0em;
-    margin-bottom: 10px;
-    text-align: center;
-    
-    
-
-}
-
-.combo_duplo {
-    background-color: #ffde59;
-    color: #895d39;
-}
-
-.combo_duplo h3 {}
-
-.combo_cheio {
-    background-color: #ffde59;
-}
-
-.combo_rpg {
-    background-color: #ffde59;
-}
-
-
-
-
-footer section{
-    display: flex;
-    background-color: #895d39;
-    justify-content: center;
-    color: #ffde59;
-}
-
-footer a {
-    text-decoration: none;
-    margin: 7px;
-    color: #ffde59;
-}
-
-footer p {
-    background-color: #895d39;
-    color: #ffde59;
-    text-align: center;
-    padding-bottom: 15px;
-}
-
-.imagem_footer {
-    width: 50%;
-    display: flex;
-    justify-content: center;
     flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
 }
 
-.imagem_footer>img {
-    width: 65%;
-
-}
-
-.conteudo_footer {
-    width: 50%;
-    display: flex;
-    font-size: 1.5em;
-    text-align: center;
-
-
-
-}
-
-.conteudo_footer h2 {
-    margin-bottom: 15px;
-    margin-top: 40%;
-}
-
-.navegacao_footer {
-    position: relative;
+.cards_combos > div {
+    background-color: #ffde59;
+    border: 2px solid #895d39;
+    padding: 20px;
+    border-radius: 12px;
+    width: 30%;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    color: #895d39;
+    text-align: start;
     display: flex;
     flex-direction: column;
-    width: 50%;
-
-
-
+    gap: 8px;
+    transition: transform 0.2s ease;
 }
 
-.navegacao_footer::after {
-    content: "";
-    position: absolute;
-    top: 50%;
-    left: 0;
-    transform: translateY(-50%);
-    height: 80%;
-    width: 3px;
-    background-color: #ffde59;
 
+
+.cards_combos h3 {
+    font-size: 1.3em;
+    margin-bottom: 10px;
+    color: #895d39;
+    border-bottom: 2px solid #895d39;
+    padding-bottom: 6px;
+}
+.cards_combos p {
+    font-size: 1.3em;
+    margin: 0;
+    margin-bottom: 10px;
+    padding: 0;
 }
 
+
+.ancoras{
+    margin-bottom: 150px;
+}
+
+
+
+
+.footer_content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    padding: 40px 0;
+    background-color: #895d39;
+    color: #ffde59;
+}
+
+
+.imagem_footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+}
+
+.imagem_footer img {
+    width: 60%;
+    
+}
+
+hr{
+    border-color: #ffde59;
+}
+/* Contatos */
 .contatos_footer {
     display: flex;
     flex-direction: column;
-    width: 50%;
+    align-items: center;
+    justify-content: center;
+    padding: 100px;
 }
+
+.contatos_footer h2 {
+    font-size: 1.4em;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #ffde59;
+    padding-bottom: 6px;
+}
+
+/* Links e endereço */
+.contatos_footer a,
+.contatos_footer address {
+    text-decoration: none;
+    color: #ffde59;
+    margin: 5px 0;
+    font-size: 1em;
+    font-style: normal;
+}
+
+.contatos_footer a:hover {
+    text-decoration: underline;
+}
+
+
+footer > p {
+    width: 100%;
+    text-align: center;
+    padding: 15px 0;
+    background-color: #895d39;
+    font-size: 0.95em;
+    margin: 0;
+    color: #ffde59;
+    border-top: 1px solid #ffde59;
+}
+
+
